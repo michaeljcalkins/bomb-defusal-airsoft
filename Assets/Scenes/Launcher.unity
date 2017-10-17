@@ -347,22 +347,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b2186704fccc4dc7acb04516e6c1eac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  alarmSound: {fileID: 0}
-  defusedSound: {fileID: 0}
-  percentText: {fileID: 0}
-  timerText: {fileID: 0}
-  progressBar: {fileID: 0}
-  isArmed: 0
-  isArming: 0
-  isDisarming: 0
-  timeRemaining: 0
-  startTimestamp: 0
-  endTimestamp: 0
-  explodeTimestamp: 0
-  isSpaceDown: 0
-  progress: 0
-  progressBarBlinkTimer: 0
-  onoff: 0
 --- !u!4 &184365713
 Transform:
   m_ObjectHideFlags: 0
@@ -682,7 +666,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: dff7c8d046e29473a8a614dd647f145f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: df407d2f8951b4cd1a71c383941bab76, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

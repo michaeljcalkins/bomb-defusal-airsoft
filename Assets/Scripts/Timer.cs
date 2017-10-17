@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class Timer : MonoBehaviour
 {
+	public float secondsUntilExplosion;
+
 	private AudioSource alarmSound;
 	private AudioSource defusedSound;
 	private Text percentText;
@@ -98,7 +100,8 @@ public class Timer : MonoBehaviour
 			}
 
 			isArming = true;
-			explodeTimestamp = GetTime () + 46500;
+			// 40 seconds * 1000 milliseconds = 40,000 ms
+			explodeTimestamp = GetTime () + (secondsUntilExplosion * 1000);
 
 			return;
 		}
@@ -179,6 +182,10 @@ public class Timer : MonoBehaviour
 
 		int minutes = secondsRemaining / 60;
 		int seconds = secondsRemaining - minutes * 60;
+
+		if (seconds < 10) {
+			return "0:0" + seconds.ToString ();
+		}
 
 		return "0:" + seconds.ToString ();
 	}
