@@ -2,8 +2,6 @@
 
 Terrorists are trying to plant a bomb at one of two bomb sites.  The Counter-Terrorists must stop them from planting the bomb by defusing it or eliminating all Terrorists.
 
-<img src="https://i.imgur.com/yGYI7JU.png" />
-
 ## Rules
 - Everyone has one life.  Adjust number of lives for depending on your audience.
 - Terrorists spawn the furthest from bomb sites.
@@ -26,3 +24,5 @@ Terrorists are trying to plant a bomb at one of two bomb sites.  The Counter-Ter
 - Both bomb sites should be as far from each other as possible while still giving Counter-Terrorists the reasonable ability to get to each first from the start of the round.
 - Counter-Terrorist spawn should be close to the bomb sites but still require them to travel.
 - Terrorist spawn should be the furthest from the bomb sites.
+
+<img src="https://i.imgur.com/yGYI7JU.png" />
