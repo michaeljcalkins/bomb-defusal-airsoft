@@ -7,7 +7,7 @@ Terrorists are trying to plant a bomb at one of two bomb sites.  The Counter-Ter
 - Terrorists spawn the furthest from bomb sites.
 - Counter-Terrorists spawn the closest to bomb sites.
 - Teams can be 5 - 8 players.
-- Each round is 5 minutes.
+- Each round is 3 - 5 minutes.
 - You may only arm the bomb if you are holding the bomb at the bomb site.
 - You must stop arming the bomb when shot.
 
