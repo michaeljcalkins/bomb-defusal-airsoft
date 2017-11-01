@@ -104,6 +104,8 @@ public class Timer : MonoBehaviour
         // Player pushed space to arm the bomb
         if (!isArmed && isSpaceDown && progress < 5000)
         {
+            print("Arming bomb");
+
             if (!isPlaying)
             {
                 alarmSound.Play();
