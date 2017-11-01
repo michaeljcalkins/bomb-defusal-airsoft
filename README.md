@@ -2,6 +2,8 @@
 
 Terrorists are trying to plant a bomb at one of two bomb sites.  The Counter-Terrorists must stop them from planting the bomb by defusing it or eliminating all Terrorists.
 
+<img src="https://i.imgur.com/UGfwHQM.gif" />
+
 ## Rules
 - Everyone has one life.  Adjust number of lives for depending on your audience.
 - Terrorists spawn the furthest from bomb sites.
